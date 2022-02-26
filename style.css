@@ -1,0 +1,15 @@
+*{
+  background-color: blueviolet;
+}
+.container{
+  width: 280px;
+  height: 200px;
+  border: 5px;
+  border: solid black;
+  padding: 20px;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
