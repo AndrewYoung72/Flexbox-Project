@@ -1,21 +1,31 @@
-* {
-  background-color: gray(60%);
-}
+
 .container {
   width: 200px;
   height: 200px;
   border: 5px;
+  border-radius: 10px;
+  box-shadow: 20px inset;
+  background-color: hsla(120, 0%, 50%, .6);
   border: solid black;
   padding: 2px;
+  position:relative;
 }
-/* main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} */
+
+.header {
+  color: white;
+  text-align: center;
+  border: 2px;
+  border-radius: 10px;
+  border: solid black;
+}
 
 .grid-container {
-  display: grid;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: hsla(210, 100%, 50%, .8);
   border: solid black;
   grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-evenly;
+  position:absolute;
+  align-items: center;
 }
