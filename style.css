@@ -2,19 +2,20 @@
   background-color: gray(60%);
 }
 .container {
-  width: 280px;
+  width: 200px;
   height: 200px;
   border: 5px;
   border: solid black;
-  padding: 20px;
+  padding: 2px;
 }
-main {
+/* main {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
+} */
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  border: solid black;
+  grid-template-columns: auto auto auto auto auto auto;
 }
