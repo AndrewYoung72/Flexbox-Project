@@ -1,15 +1,20 @@
-*{
-  background-color: blueviolet;
+* {
+  background-color: gray(60%);
 }
-.container{
+.container {
   width: 280px;
   height: 200px;
   border: 5px;
   border: solid black;
   padding: 20px;
 }
-main{
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
