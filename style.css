@@ -1,6 +1,8 @@
 .title {
 text-align: center;
 font-size: x-large;
+font-weight: bold;
+font-style: italic;
 }
 
 .container {
@@ -12,7 +14,8 @@ font-size: x-large;
   background-color: hsla(120, 0%, 50%, .6);
   border: inset white;
   padding: 2px;
-  position:relative;
+  flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -28,7 +31,7 @@ font-size: x-large;
   display: flex;
   flex-flow: row wrap;
   background-color: hsla(210, 100%, 50%, .8);
-  border: solid black;
+  border: outset gray;
   justify-content: center;
   /* position:absolute; */
   align-items: center;
