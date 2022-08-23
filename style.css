@@ -1,8 +1,15 @@
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .title {
 text-align: center;
 font-size: x-large;
 font-weight: bold;
 font-style: italic;
+color: rgb(87, 86, 86);
 }
 
 .container {
@@ -27,14 +34,15 @@ font-style: italic;
  
 }
 
-.grid-container {
+.flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  flex-flow: column;
   background-color: hsla(210, 100%, 50%, .8);
   border: outset gray;
-  justify-content: center;
-  /* position:absolute; */
+  /* justify-content: center; */
   align-items: center;
+  
 }
 
 nav {
@@ -57,9 +65,6 @@ nav a:hover {
   background-color: white;
 }
 
-a.fb {
-  background-image: ("../img/icons8-linkedin-96.png");
-}
 
 @media screen  and (min-width: 768px){
   nav ul {
