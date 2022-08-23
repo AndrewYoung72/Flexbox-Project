@@ -28,6 +28,17 @@ body {
   background: #777;
 }
 
+.nested {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10PX;
+}
+
+.nested P {
+  border: 1px solid white;
+  padding: 20px;
+  margin: 0;
+}
 .one {
   /* grid-column-start: 1;
   grid-column-end: 3; */
