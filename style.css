@@ -36,3 +36,41 @@ font-style: italic;
   /* position:absolute; */
   align-items: center;
 }
+
+nav {
+  background-color: rgb(231, 226, 226);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0%;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(38, 135, 220);
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+a.fb {
+  background-image: ("../img_icons8-linkedin-30.png");
+}
+
+@media screen  and (min-width: 768px){
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    flex: 1 1 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
