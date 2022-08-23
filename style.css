@@ -13,8 +13,8 @@ color: rgb(87, 86, 86);
 }
 
 .container {
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
   border: 2px;
   margin: 5px;
   border-radius: 10px;
@@ -37,12 +37,10 @@ color: rgb(87, 86, 86);
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: column;
+  flex-flow: row;
   background-color: hsla(210, 100%, 50%, .8);
   border: outset gray;
-  /* justify-content: center; */
   align-items: center;
-  
 }
 
 nav {
