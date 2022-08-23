@@ -17,6 +17,8 @@ body {
   grid-gap: 10px;
   max-width: 960px;
   margin: 0 auto;
+  /* align-items: flex-start; */
+  justify-content: start;
 }
 
 #content div {
