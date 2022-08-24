@@ -1,6 +1,6 @@
 body {
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
@@ -11,13 +11,38 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 10px;
-  grid-template-areas: 
-  "header header header header"
-  "aside aside main main"
-  "nav nav main main"
-  "section section section section"
-  "section section section section"
-  "footer footer footer footer";
+  grid-template-areas:
+    "header header header header"
+    "footer footer footer footer"
+    /* dot leaves a space
+"aside. main main" */
+    /* "aside aside main main" */
+    "main main main main"
+    "main main main main"
+    "aside aside nav nav"
+    "section section section section"
+    "section section section section";
+    
+}
+
+@media screen and (min-width: 760px) {
+  #content {
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    grid-template-areas:
+      "header header header header"
+      /* dot leaves a space
+  "aside. main main" */
+      "aside aside main main"
+      "nav nav main main"
+      "section section section section"
+      "section section section section"
+      "footer footer footer footer";
+  }
 }
 
 #content > * {
